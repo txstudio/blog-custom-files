@@ -1,0 +1,109 @@
+body {
+	font-family: "Microsoft JhengHei";
+}
+h5 {
+	font-size: 18px;
+}
+blockquote {
+	padding: 5px 15px;
+	font-family: "Microsoft JhengHei";
+	border-left: 0.25em solid #666;
+	margin-left: 0;
+	font-size: 14px;
+	text-align: left;
+	font-style: normal;
+}
+dd {
+	margin-left: 15px;
+}
+pre {
+	padding: 5px 15px;
+	border: 1px solid #bbb;
+	background: #eee;
+	color: #444;
+	font-family: Consolas;
+	font-size: 14px;
+	border-radius: 3px;
+	line-height: 22px;
+}
+table {
+	border: 1px solid #bbb;
+}
+th {
+	border-bottom: 1px dashed #eee;
+}
+th, td {
+	padding: 3px 15px;
+}
+
+.centered-top .Header h1 {
+	font-family: "Microsoft JhengHei";
+}
+.centered-top .Header p {
+	font-family: "Microsoft JhengHei";
+	font-style: normal;
+	font-size: 24px;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+
+.top-nav {
+	margin-bottom: 20px;
+}
+
+.top-nav .PageList ul li {
+	font-family: "Microsoft JhengHei";
+    font-size: 16px;
+}
+.top-nav .PageList ul li a {
+	background-color: rgba(244,255,129,0.1);
+	margin-right: 10px;
+}
+.top-nav .PageList ul li a.active {
+	background-color: #263238;
+}
+.top-nav .PageList h3 {
+	display:none;
+}
+
+.post-filter-message {
+	display:none;
+}
+
+.item-view .post-title {
+	font-family: "Microsoft JhengHei";
+}
+
+.post-title, .post-title a {
+	font-family: "Microsoft JhengHei";
+}
+
+.post-body {
+	font-family: "Microsoft JhengHei";
+}
+
+.sidebar-container .widget {
+	padding: 15px;
+}
+
+/* 文章縮圖預設背景 */
+.feed-view .post-wrapper.has-labels.image .snippet-thumbnail-container {
+	background-color: #333;
+}
+
+/* 熱門文章樣式 */
+.sidebar-container .widget .title {
+	font-family: "Microsoft JhengHei";
+}
+.PopularPosts .post-title a {
+	font-family: "Microsoft JhengHei";
+}
+.PopularPosts .popular-posts-snippet {
+	font-family: "Microsoft JhengHei";
+}
+
+/* 文章顯示標籤樣式 */
+.Label li a, .Label span.label-size, .byline.post-labels a {
+	font-family: "Microsoft JhengHei";
+}
+
