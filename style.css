@@ -45,6 +45,10 @@ th, td {
 	padding: 3px 15px;
 }
 
+#featured_post {
+	display:none;
+}
+
 .centered-top .Header h1 {
 	font-family: "Microsoft JhengHei";
 }
