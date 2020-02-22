@@ -1,13 +1,22 @@
 $(function(){
 	var _href = "";
 	var _matchPattern = "/search";
+	var _detailPattern = ".html";
+	var _hiddenFeaturedPost = false;
 	
-	if(location.href.match(_matchPattern) == undefined)
+	_href = location.href;
+	
+	if(_href.match(_matchPattern) != undefined)
 	{
+		_hiddenFeaturedPost = true;
 	}
-	else
+	if(_href.match(_detailPattern) != undefined)
 	{
-		//搜尋結果不顯示最新貼文
+		_hiddenFeaturedPost = true;
+	}
+	
+	if(_hiddenFeaturePost === true)
+	{
 		$("#featured_post").css("display","none");
 	}
 	
