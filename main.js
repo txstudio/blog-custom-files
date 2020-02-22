@@ -15,7 +15,7 @@ $(function(){
 		_hiddenFeaturedPost = true;
 	}
 	
-	if(_hiddenFeaturePost === true)
+	if(_hiddenFeaturedPost === true)
 	{
 		$("#featured_post").css("display","none");
 	}
