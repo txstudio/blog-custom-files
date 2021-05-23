@@ -117,8 +117,13 @@ th, td {
 }
 
 /* 系列文章頁面樣式 */
-#serial-page-panel {}
+#serial-page-panel { 
+	border-top: 2px dashed #999;
+    border-bottom: 2px dashed #999;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
 #serial-page-panel .previous { float:left;width:50%;text-align:left; }
-#serial-page-panel .next { float:left;width:50%;text-align:right; }
+#serial-page-panel .next { float:left;width:49%;text-align:right;border-left: 1px solid #999; }
 #serial-page-panel label { display:block; }
 #serial-page-panel a { display:block; }
